@@ -1,0 +1,31 @@
+.front-a{
+    height: 100%;
+    transform: perspective(600px) rotateY(180deg);
+
+    
+    
+}
+.back-a{
+    transform: perspective(600px) rotateY(0deg) !important;
+   
+}
+
+.cardd{
+    cursor: pointer !important;
+    width: 400px !important;
+    height:200 !important;
+}
+
+.front-a, .back-a{
+width: 100%;
+height: 100%;
+overflow:hidden;
+backface-visibility: hidden;
+}
+
+
+    .back-a{
+        margin: 0;
+        padding: 0;
+    }  
+
