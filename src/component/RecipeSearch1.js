@@ -6,11 +6,11 @@ export default class RecipeSearch extends Component {
     const {handleChange, value, handleSubmit} = this.props
     return (
     <React.Fragment>
-       <div className="container myfirst">
+       <div className="container myfirst mx-auto">
          <div className="row">
            <div className="col-10 mx-auto col-md-8 mt-5 text-center">
-             <h1 className="style-text text-capitalise">
-               Recipe App using {" "}
+             <h1 className="Dancing-Script text-capitalise text-center">
+               Recipe App Using {" "}
                <strong className="text-danger">Food2Fork</strong>
                {" "} API
              </h1>
@@ -19,7 +19,7 @@ export default class RecipeSearch extends Component {
                 type recipes seperated by comma
               </label>
 
-              <div className="search-box">
+              <div className="search-box mx-auto">
               <input type="text" name="search" 
               placeholder="chicken,onions,carroters"
               className="search-txt"

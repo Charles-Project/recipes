@@ -6,7 +6,7 @@ export default class RecipeList extends Component {
   render() {
     //console.log(this.props.handleList);
     
-    const {recipes, handleDetails, handleChange, value, handleSubmit, error} = this.props;
+    const {recipes, handleDetails, value, handleChange, handleSubmit, error} = this.props;
 
     return (
       <React.Fragment>
@@ -15,7 +15,7 @@ export default class RecipeList extends Component {
            {/** title*/}
            <div className="row">
                <div className="col-10 col-md-6 text-center mx-auto text-uppercase">
-                <h1 className="header-text">Recipe List</h1>
+                <h1 className="header Courgette center">Recipe List</h1>
                </div>
             </div> 
             {/** title*/}

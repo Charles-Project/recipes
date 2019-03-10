@@ -2,32 +2,39 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Open-Sans{
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Srisakdi{
+  font-family: 'Srisakdi', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.Dancing-Script{
+  font-family: 'Dancing Script', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Courgette{
+  font-family: 'Courgette', cursive;
+}
+
+.Marck-Script{
+  font-family: 'Marck Script', cursive;
+}
+
+.Tangerine{
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem
+}
+
+.header{
+  color:#ff9800
+}
+
+.ggreen{
+  background-color: #76ff03
+}
+
+.bblue{
+  background-color: #e040fb
 }
