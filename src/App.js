@@ -3,7 +3,7 @@ import "./App.css";
 import { recipes } from "./tempList";
 import RecipeList from "./component/RecipeList";
 import RecipeInfo from "./component/RecipeInfo";
-import Loader from './component/Loader';
+import Preloder from './component/Preloder';
 
 class App extends Component {
   state = {
@@ -100,7 +100,7 @@ class App extends Component {
   };
 
   render() {
-  const david = this.state.efe?(this.displayPage(this.state.pageIndex)):(<Loader efe={this.state.efe} />) 
+  const david = this.state.efe?(this.displayPage(this.state.pageIndex)):(<Preloder efe={this.state.efe} />) 
     return (
       <React.Fragment>
         {/**{this.displayPage(this.state.pageIndex)} */}
